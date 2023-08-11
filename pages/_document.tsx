@@ -22,6 +22,15 @@ export default function Document() {
                 <link href="/vendor/venobox/venobox.css" rel="stylesheet" />
                 <link href="/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"></link>
                 {/* <link href="/vendor/aos/aos.css" rel="stylesheet"></link> */}
+                <script src="/vendor/jquery/jquery.min.js"></script>
+                <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <script src="/vendor/jquery.easing/jquery.easing.min.js"></script>
+                <script src="/vendor/php-email-form/validate.js"></script>
+                <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+                <script src="/vendor/venobox/venobox.min.js"></script>
+                <script src="/vendor/owl.carousel/owl.carousel.min.js"></script>
+                <script src="/vendor/aos/aos.js"></script>
+                <script src="/js/main.js"></script>
             </Head>
             <body>
                 <Main />
