@@ -26,7 +26,7 @@ const Footer: NextPage = () => {
                     <div className="row">
 
                         <div className="col-lg-3 col-md-6 footer-contact" data-aos="fade-up" data-aos-delay="100">
-                            <h3>Ninestars</h3>
+                            <h3>Treo Media</h3>
                             <p>
                                 A108 Adam Street <br />
                                 New York, NY 535022<br />
@@ -76,7 +76,7 @@ const Footer: NextPage = () => {
 
             <div className="container py-4">
                 <div className="copyright">
-                    &copy; Copyright <strong><span>Ninestars</span></strong>. All Rights Reserved
+                    &copy; Copyright <strong><span>Treo Media</span></strong>. All Rights Reserved
                 </div>
                 <div className="credits">
                     Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
