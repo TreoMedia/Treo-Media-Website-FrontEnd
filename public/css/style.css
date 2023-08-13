@@ -69,13 +69,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 72px;
+  height: 80px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
 }
 
 #header .logo h1 {
@@ -92,10 +94,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 
+#header .logo{
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+}
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 33px;
 }
 
 #main {
@@ -1248,4 +1255,33 @@ section {
     text-align-last: center;
     padding: 3px 0;
   }
+    #hero h1 {
+      text-align: center;
+    }
+        .treo-img {
+          height: 50px;
+          margin-left: 0px !important;
+        }
+                .hero-sec {
+                  display: flex !important;
+                  flex-direction: column !important;
+                  justify-content: center !important;
+                  align-items: center !important;
+                }
+                                .Home_container__d256j {
+                                  padding: 0px !important;
+                                }
+
+
 }
+
+
+.main-color-text{
+  color: #212850;
+}
+
+.treo-img{
+  height: 80px;
+  margin-left: 130px;
+}
+

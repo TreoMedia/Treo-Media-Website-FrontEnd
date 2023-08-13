@@ -1,17 +1,17 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Header from '../components/Home/header'
-import Footer from '../components/Home/footer'
-import ContactUsSection from '../components/Home/contact'
-import Team from '../components/Home/team'
-import TrustedClient from '../components/Home/TrustedClient'
-import Faq from '../components/Home/faq'
-import Portfolio from '../components/Home/portfolio'
-import About from '../components/Home/about'
-import Service from '../components/Home/service'
-import HeroSection from '../components/Home/hero'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Header from "../components/Home/header";
+import Footer from "../components/Home/footer";
+import ContactUsSection from "../components/Home/contact";
+import Team from "../components/Home/team";
+import TrustedClient from "../components/Home/TrustedClient";
+import Faq from "../components/Home/faq";
+import Portfolio from "../components/Home/portfolio";
+import About from "../components/Home/about";
+import Service from "../components/Home/service";
+import HeroSection from "../components/Home/hero";
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +21,6 @@ const Home: NextPage = () => {
       <HeroSection />
 
       <main id="main">
-
         <About />
 
         <Service />
@@ -38,7 +37,7 @@ const Home: NextPage = () => {
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
