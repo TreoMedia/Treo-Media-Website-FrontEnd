@@ -1284,4 +1284,12 @@ section {
   height: 80px;
   margin-left: 130px;
 }
-
+.footer-img{
+  height: 25px;
+}
+.media-footer-text{
+  margin-left: 5px;
+  font-size: 20px !important;
+  color: #212850;
+  font-weight: 600;
+}

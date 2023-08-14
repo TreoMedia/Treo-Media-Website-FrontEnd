@@ -32,16 +32,21 @@ const Footer: NextPage = () => {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <h3>Treo Media</h3>
+              <div className="d-flex align-items-baseline">
+                {" "}
+                <img
+                  src="/img/revert-logo.png"
+                  alt=""
+                  className="footer-img"
+                ></img>{" "}
+                <p className="media-footer-text">media</p>
+              </div>
               <p>
-                A108 Adam Street <br />
-                New York, NY 535022
-                <br />
-                United States <br />
+                Colombo, Sri Lanka
                 <br />
                 <strong>Phone:</strong> +1 5589 55488 55
                 <br />
-                <strong>Email:</strong> info@example.com
+                <strong>Email:</strong> info.treomedia@gmail.com
                 <br />
               </p>
             </div>
@@ -84,24 +89,23 @@ const Footer: NextPage = () => {
               <ul>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Web Design</a>
+                  <a href="#">Web Application Development</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Web Development</a>
+                  <a href="#">Mobile Application Development</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Product Management</a>
+                  <a href="#">Software Testing</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#">Marketing</a>
+                  <i className="bx bx-chevron-right"></i> <a href="#">UI/UX </a>
                 </li>
-                <li>
+                {/* <li>
                   <i className="bx bx-chevron-right"></i>{" "}
                   <a href="#">Graphic Design</a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
@@ -145,7 +149,7 @@ const Footer: NextPage = () => {
           </strong>
           . All Rights Reserved
         </div>
-        <div className="credits">Designed by Treo Media IT Solutions</div>
+        <div className="credits">Designed by Treo Media (Pvt) Ltd</div>
       </div>
     </footer>
   );

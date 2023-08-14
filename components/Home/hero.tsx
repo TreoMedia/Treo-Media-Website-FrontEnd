@@ -14,7 +14,7 @@ const HeroSection: NextPage = () => {
               <img
                 src="/img/revert-logo.png"
                 alt=""
-                className="treo-img mb-5"
+                className="treo-img mb-3"
               ></img>
             </div>
 
