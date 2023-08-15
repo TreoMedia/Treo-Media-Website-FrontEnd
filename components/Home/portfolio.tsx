@@ -32,7 +32,7 @@ const Portfolio: NextPage = () => {
                 </div>
                 {
                     tab == 1 && (
-                        <div className="row portfolio-container" >
+                        <div className="row " >
 
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
