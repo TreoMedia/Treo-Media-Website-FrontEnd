@@ -11,11 +11,12 @@ const HeroSection: NextPage = () => {
           <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 hero-sec">
             <div className="align-items-baseline">
               <h1 className="main-color-text">We are</h1>
-              <img
+              <h1 className="ml-3 pl-3">Treo Media</h1>
+              {/* <img
                 src="/img/revert-logo.png"
                 alt=""
                 className="treo-img mb-3"
-              ></img>
+              ></img> */}
             </div>
 
             <h2>Let's make your digital dream come true</h2>
